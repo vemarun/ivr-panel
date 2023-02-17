@@ -1,0 +1,30 @@
+.keypad {
+    display: flex;
+    font-family: Helvetica;
+    font-weight: 400;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 310px;
+  }
+  
+  .keys {
+    border: 1px solid #006494;
+    border-radius: 50px;
+    color: #006494;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 26px;
+    height: 60px;
+    line-height: 80px;
+    margin: 10px;
+    text-align: center;
+    width: 60px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .keys:hover {
+    background-color: #006494;
+    color: #FFFFFF;
+  }
